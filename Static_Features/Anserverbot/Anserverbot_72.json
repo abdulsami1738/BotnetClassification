@@ -1,0 +1,60 @@
+{
+  "apk_path": "Dataset\\Anserverbot\\Anserverbot_72.apk",
+  "package_name": "com.keji.danti751",
+  "main_activity": "com.keji.danti.MainA",
+  "permissions": [
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_LOGS",
+    "android.permission.WRITE_APN_SETTINGS",
+    "android.permission.DISABLE_KEYGUARD",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.RESTART_PACKAGES",
+    "android.permission.SEND_SMS",
+    "android.permission.INTERNET",
+    "android.permission.CALL_PHONE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_SMS",
+    "android.permission.READ_SMS"
+  ],
+  "activities": [
+    "com.keji.danti.MainA",
+    "com.android.view.custom.BaseAActivity",
+    "com.android.view.custom.FirstAActivity",
+    "com.keji.danti.Lists",
+    "com.android.view.custom.SecondAActivity",
+    "com.keji.danti.Background",
+    "com.android.view.custom.ThirdAActivity",
+    "com.keji.danti.Boutique",
+    "com.android.view.custom.FourthAActivity",
+    "com.keji.danti.Setting",
+    "com.keji.danti.History",
+    "com.keji.danti.TextDetail"
+  ],
+  "services": [
+    "com.android.view.custom.FirstAService",
+    "com.android.view.custom.ThirdAService",
+    "com.android.view.custom.SecondAService",
+    "com.android.view.custom.FourthAService"
+  ],
+  "receivers": [
+    "com.android.view.custom.BaseABroadcastReceiver"
+  ],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.keji.danti.MainA",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [],
+  "label": "Anserverbot"
+}

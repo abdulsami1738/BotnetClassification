@@ -1,0 +1,26 @@
+{
+  "apk_path": "Dataset\\Geinimi\\Geinimi_130.apk",
+  "package_name": "com.tweetypeety.newmiuiiconpack",
+  "main_activity": null,
+  "permissions": [],
+  "activities": [
+    "com.tweetypeety.newmiuiiconpack.IconPack"
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.tweetypeety.newmiuiiconpack.IconPack",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "<init>"
+  ],
+  "label": "Geinimi"
+}

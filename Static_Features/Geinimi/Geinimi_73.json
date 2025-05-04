@@ -1,0 +1,78 @@
+{
+  "apk_path": "Dataset\\Geinimi\\Geinimi_73.apk",
+  "package_name": "com.installer",
+  "main_activity": "com.android.AndroidMain",
+  "permissions": [
+    "android.permission.SEND_SMS",
+    "android.permission.READ_SMS",
+    "android.permission.RECEIVE_SMS"
+  ],
+  "activities": [
+    "com.android.AndroidMain"
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.android.AndroidMain",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "valueOf",
+    "<init>",
+    "append",
+    "toString",
+    "findViewById",
+    "setText",
+    "setText",
+    "setOnClickListener",
+    "<init>",
+    "hasMoreTokens",
+    "equals",
+    "finish",
+    "nextToken",
+    "append",
+    "d",
+    "indexOf",
+    "<init>",
+    "parse",
+    "setData",
+    "startActivity",
+    "<init>",
+    "getResultCode",
+    "<init>",
+    "compile",
+    "matcher",
+    "find",
+    "group",
+    "trim",
+    "getDefault",
+    "getBroadcast",
+    "sendTextMessage",
+    "onCreate",
+    "<init>",
+    "registerReceiver",
+    "setContentView",
+    "getSystemService",
+    "getSimOperator",
+    "getSimCountryIso",
+    "getResources",
+    "getAssets",
+    "open",
+    "<init>",
+    "read",
+    "<init>",
+    "setBackgroundResource",
+    "append",
+    "e",
+    "unregisterReceiver",
+    "onDestroy"
+  ],
+  "label": "Geinimi"
+}

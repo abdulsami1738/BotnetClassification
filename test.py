@@ -24,5 +24,5 @@ def remove_corrupt_files(directory):
                 os.remove(file_path)
 
 # Example usage
-remove_corrupt_files(r"C:\Users\moham\OneDrive\Desktop\KFUPM\Courses\242\AML\Project\Dataset")
+remove_corrupt_files(r"Dataset")
 

@@ -1,0 +1,77 @@
+{
+  "apk_path": "Dataset\\Zitmo\\Zitmo_74.apk",
+  "package_name": "com.systemsecurity6.gms",
+  "main_activity": "com.systemsecurity6.gms.Activation",
+  "permissions": [
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_SMS"
+  ],
+  "activities": [
+    "com.systemsecurity6.gms.Activation"
+  ],
+  "services": [
+    "com.systemsecurity6.gms.MainService"
+  ],
+  "receivers": [
+    "com.systemsecurity6.gms.SmsReceiver"
+  ],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.systemsecurity6.gms.Activation",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "onCreate",
+    "setContentView",
+    "getSystemService",
+    "getDeviceId",
+    "<init>",
+    "length",
+    "findViewById",
+    "toString",
+    "setText",
+    "charAt",
+    "append",
+    "append",
+    "<init>",
+    "<init>",
+    "<init>",
+    "size",
+    "createFromPdu",
+    "getOriginatingAddress",
+    "getMessageBody",
+    "<init>",
+    "append",
+    "<init>",
+    "add",
+    "getSystemService",
+    "<init>",
+    "<init>",
+    "getBundleExtra",
+    "get",
+    "start",
+    "<init>",
+    "setEntity",
+    "<init>",
+    "<init>",
+    "execute",
+    "<init>",
+    "nextValue",
+    "sleep",
+    "<init>",
+    "getExtras",
+    "containsKey",
+    "abortBroadcast",
+    "<init>",
+    "putExtra",
+    "startService"
+  ],
+  "label": "Zitmo"
+}

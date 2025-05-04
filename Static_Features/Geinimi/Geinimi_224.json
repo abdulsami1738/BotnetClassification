@@ -1,0 +1,62 @@
+{
+  "apk_path": "Dataset\\Geinimi\\Geinimi_224.apk",
+  "package_name": "com.agewap.ero.gallery",
+  "main_activity": "com.agewap.ero.gallery.GalleryActivity",
+  "permissions": [
+    "android.permission.SEND_SMS"
+  ],
+  "activities": [
+    "com.agewap.ero.gallery.GalleryActivity"
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.agewap.ero.gallery.GalleryActivity",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "<init>",
+    "append",
+    "append",
+    "getCount",
+    "toString",
+    "setText",
+    "<init>",
+    "onCreate",
+    "setContentView",
+    "<init>",
+    "findViewById",
+    "setAdapter",
+    "getAdapter",
+    "getCount",
+    "setOnItemClickListener",
+    "exists",
+    "exit",
+    "getDefault",
+    "sendTextMessage",
+    "openFileOutput",
+    "<init>",
+    "flush",
+    "close",
+    "printStackTrace",
+    "printStackTrace",
+    "<init>",
+    "valueOf",
+    "intValue",
+    "<init>",
+    "setImageResource",
+    "setPadding",
+    "<init>",
+    "setLayoutParams",
+    "setScaleType",
+    "setBackgroundResource"
+  ],
+  "label": "Geinimi"
+}

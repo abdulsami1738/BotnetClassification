@@ -1,0 +1,78 @@
+{
+  "apk_path": "Dataset\\Nickyspy\\Nickyspy_23.apk",
+  "package_name": "com.eternal.sgames.s",
+  "main_activity": "com.eternal.sgames.s.SMS",
+  "permissions": [
+    "android.permission.CAMERA",
+    "android.permission.READ_CONTACTS",
+    "android.permission.CALL",
+    "android.permission.SEND_SMS",
+    "android.permission.INTERNET"
+  ],
+  "activities": [
+    "com.eternal.sgames.s.SMS"
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.eternal.sgames.s.SMS",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "edit",
+    "putBoolean",
+    "commit",
+    "close",
+    "getAssets",
+    "open",
+    "<init>",
+    "<init>",
+    "<init>",
+    "readLine",
+    "append",
+    "append",
+    "finish",
+    "getSharedPreferences",
+    "getBoolean",
+    "<init>",
+    "setTitle",
+    "setCancelable",
+    "setPositiveButton",
+    "setNegativeButton",
+    "setOnCancelListener",
+    "setMessage",
+    "create",
+    "show",
+    "getInstance",
+    "newEditable",
+    "setText",
+    "getText",
+    "toString",
+    "length",
+    "getBaseContext",
+    "makeText",
+    "show",
+    "<init>",
+    "getResultCode",
+    "setContentView",
+    "getResultCode",
+    "<init>",
+    "onCreate",
+    "<init>",
+    "getBroadcast",
+    "<init>",
+    "registerReceiver",
+    "getDefault",
+    "sendTextMessage",
+    "findViewById",
+    "setOnClickListener"
+  ],
+  "label": "Nickyspy"
+}

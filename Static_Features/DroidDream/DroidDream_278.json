@@ -1,0 +1,335 @@
+{
+  "apk_path": "Dataset\\DroidDream\\DroidDream_278.apk",
+  "package_name": "com.lukemovement.roottoolbox",
+  "main_activity": "com.lukemovement.roottoolbox.splashscreen",
+  "permissions": [
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET"
+  ],
+  "activities": [
+    "com.lukemovement.roottoolbox.changelog",
+    "com.lukemovement.roottoolbox.shell",
+    "com.lukemovement.roottoolbox.simsettings",
+    "com.lukemovement.roottoolbox.cm7themes",
+    "com.lukemovement.roottoolbox.aboutroot",
+    "com.lukemovement.roottoolbox.contactme",
+    "com.lukemovement.roottoolbox.restoreapns",
+    "com.lukemovement.roottoolbox.wipe",
+    "com.lukemovement.roottoolbox.splashscreen",
+    "com.lukemovement.roottoolbox.systemappsrestore",
+    "com.lukemovement.roottoolbox.mount",
+    "com.lukemovement.roottoolbox.system",
+    "com.lukemovement.roottoolbox.setapn",
+    "com.lukemovement.roottoolbox.reboot",
+    "com.lukemovement.roottoolbox.other",
+    "com.lukemovement.roottoolbox.advanced",
+    "com.lukemovement.roottoolbox.usb",
+    "com.lukemovement.roottoolbox.sdcardreadspeed",
+    "com.lukemovement.roottoolbox.systemapps"
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.lukemovement.roottoolbox.reboot",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.other",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.sdcardreadspeed",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.systemappsrestore",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.contactme",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.cm7themes",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.system",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.restoreapns",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.mount",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.usb",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.splashscreen",
+      "filters": [
+        "action",
+        "category"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.simsettings",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.advanced",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.setapn",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.changelog",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.wipe",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.shell",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.systemapps",
+      "filters": [
+        "action"
+      ]
+    },
+    {
+      "activity": "com.lukemovement.roottoolbox.aboutroot",
+      "filters": [
+        "action"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "<init>",
+    "startActivity",
+    "finish",
+    "<init>",
+    "onCreate",
+    "setContentView",
+    "findViewById",
+    "setOnClickListener",
+    "makeText",
+    "show",
+    "startActivity",
+    "finish",
+    "getAssets",
+    "open",
+    "<init>",
+    "read",
+    "dismiss",
+    "write",
+    "show",
+    "setCancelable",
+    "<init>",
+    "start",
+    "setContentView",
+    "<init>",
+    "exists",
+    "findViewById",
+    "setText",
+    "<init>",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "findViewById",
+    "<init>",
+    "<init>",
+    "setComponent",
+    "startActivity",
+    "printStackTrace",
+    "parse",
+    "<init>",
+    "finish",
+    "setContentView",
+    "findViewById",
+    "startActivity",
+    "finish",
+    "setType",
+    "putExtra",
+    "putExtra",
+    "createChooser",
+    "setContentView",
+    "findViewById",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "findViewById",
+    "startActivity",
+    "finish",
+    "getAssets",
+    "setClassName",
+    "show",
+    "show",
+    "<init>",
+    "openConnection",
+    "getContentLength",
+    "openStream",
+    "<init>",
+    "readFully",
+    "close",
+    "<init>",
+    "write",
+    "flush",
+    "close",
+    "setContentView",
+    "findViewById",
+    "finish",
+    "startActivity",
+    "setContentView",
+    "findViewById",
+    "<init>",
+    "getName",
+    "append",
+    "toString",
+    "valueOf",
+    "startActivity",
+    "finish",
+    "<init>",
+    "<init>",
+    "listFiles",
+    "equals",
+    "add",
+    "getParent",
+    "<init>",
+    "setListAdapter",
+    "getPath",
+    "isDirectory",
+    "onCreate",
+    "setContentView",
+    "get",
+    "canRead",
+    "<init>",
+    "setTitle",
+    "setPositiveButton",
+    "show",
+    "setNegativeButton",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "findViewById",
+    "append",
+    "startActivity",
+    "finish",
+    "getAssets",
+    "setContentView",
+    "getInstance",
+    "get",
+    "findViewById",
+    "startActivity",
+    "finish",
+    "myPid",
+    "killProcess",
+    "setContentView",
+    "findViewById",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "getSystemService",
+    "findViewById",
+    "getSimOperatorName",
+    "setText",
+    "getSimCountryIso",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "setMessage",
+    "setCancelable",
+    "create",
+    "show",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "findViewById",
+    "startActivity",
+    "finish",
+    "setListAdapter",
+    "setContentView",
+    "startActivity",
+    "finish",
+    "setListAdapter",
+    "setContentView",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "findViewById",
+    "<init>",
+    "getBytes",
+    "write",
+    "notifyAll",
+    "write",
+    "intValue",
+    "<init>",
+    "getRuntime",
+    "exec",
+    "getOutputStream",
+    "getInputStream",
+    "getErrorStream",
+    "sleep",
+    "start",
+    "writeBytes",
+    "i",
+    "reset",
+    "toByteArray",
+    "<init>",
+    "contains",
+    "wait",
+    "valueOf",
+    "interrupt",
+    "destroy",
+    "startActivity",
+    "finish",
+    "setContentView",
+    "findViewById",
+    "loadLibrary"
+  ],
+  "label": "DroidDream"
+}

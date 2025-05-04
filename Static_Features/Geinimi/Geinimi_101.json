@@ -1,0 +1,60 @@
+{
+  "apk_path": "Dataset\\Geinimi\\Geinimi_101.apk",
+  "package_name": "com.Jump2.remove",
+  "main_activity": "com.Jump2.remove.start",
+  "permissions": [
+    "android.permission.GET_TASKS"
+  ],
+  "activities": [
+    "com.Jump2.remove.start",
+    "com.Jump2.remove.UninstallerActivity"
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.Jump2.remove.start",
+      "filters": [
+        "action",
+        "category",
+        "data"
+      ]
+    },
+    {
+      "activity": "com.Jump2.remove.UninstallerActivity",
+      "filters": [
+        "action",
+        "category",
+        "data"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "<init>",
+    "onCreate",
+    "<init>",
+    "getInputStream",
+    "getOutputStream",
+    "getBytes",
+    "write",
+    "<init>",
+    "schedule",
+    "read",
+    "<init>",
+    "equals",
+    "cancel",
+    "finish",
+    "getSystemService",
+    "getRunningAppProcesses",
+    "size",
+    "get",
+    "contentEquals",
+    "fromParts",
+    "<init>",
+    "startActivity",
+    "<init>"
+  ],
+  "label": "Geinimi"
+}

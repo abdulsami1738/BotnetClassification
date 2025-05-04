@@ -1,0 +1,44 @@
+{
+  "apk_path": "Dataset\\Zitmo\\Zitmo_72.apk",
+  "package_name": "com.eokul",
+  "main_activity": "com.eokul.MainActivity",
+  "permissions": [
+    "android.permission.INTERNET"
+  ],
+  "activities": [
+    "com.eokul.MainActivity"
+  ],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.eokul.MainActivity",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "onCreate",
+    "setContentView",
+    "getSystemService",
+    "getDeviceId",
+    "<init>",
+    "length",
+    "findViewById",
+    "toString",
+    "setText",
+    "charAt",
+    "append",
+    "append",
+    "getMenuInflater",
+    "inflate",
+    "<init>",
+    "<init>",
+    "loadUrl"
+  ],
+  "label": "Zitmo"
+}

@@ -1,0 +1,13 @@
+{
+  "apk_path": "Dataset\\Anserverbot\\Anserverbot_82.apk",
+  "package_name": "",
+  "main_activity": null,
+  "permissions": [],
+  "activities": [],
+  "services": [],
+  "receivers": [],
+  "providers": [],
+  "intent_filters": [],
+  "api_methods": [],
+  "label": "Anserverbot"
+}

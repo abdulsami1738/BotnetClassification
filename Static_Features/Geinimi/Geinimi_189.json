@@ -1,0 +1,79 @@
+{
+  "apk_path": "Dataset\\Geinimi\\Geinimi_189.apk",
+  "package_name": "com.agewap.soft",
+  "main_activity": "com.agewap.soft.ProgressBarActivity",
+  "permissions": [
+    "android.permission.READ_LOGS",
+    "android.permission.CAMERA",
+    "android.permission.STATUS_BAR",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.SEND_SMS",
+    "android.permission.INTERNET",
+    "android.permission.NFC",
+    "android.permission.FLASHLIGHT",
+    "android.permission.VIBRATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BATTERY_STATS"
+  ],
+  "activities": [
+    "com.agewap.soft.ProgressBarActivity"
+  ],
+  "services": [],
+  "receivers": [
+    "com.agewap.soft.ProgressBarActivity"
+  ],
+  "providers": [],
+  "intent_filters": [
+    {
+      "activity": "com.agewap.soft.ProgressBarActivity",
+      "filters": [
+        "action",
+        "category"
+      ]
+    }
+  ],
+  "api_methods": [
+    "<init>",
+    "<init>",
+    "incrementProgressBy",
+    "sleep",
+    "getProgress",
+    "finish",
+    "e",
+    "obtainMessage",
+    "sendMessage",
+    "getDefault",
+    "sendTextMessage",
+    "getApplicationContext",
+    "makeText",
+    "show",
+    "<init>",
+    "post",
+    "<init>",
+    "valueOf",
+    "publishProgress",
+    "onPostExecute",
+    "onProgressUpdate",
+    "<init>",
+    "<init>",
+    "schedule",
+    "onCreate",
+    "setContentView",
+    "<init>",
+    "exists",
+    "exit",
+    "openFileOutput",
+    "<init>",
+    "flush",
+    "close",
+    "execute",
+    "findViewById",
+    "onStart",
+    "printStackTrace",
+    "printStackTrace",
+    "setProgress",
+    "<init>",
+    "start"
+  ],
+  "label": "Geinimi"
+}
